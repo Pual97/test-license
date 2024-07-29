@@ -18,7 +18,7 @@ master: # 触发分支
           jobs:
             - name: job-1 # Job结构体
               script: echo 123
-  merge_request: # 触发事件，包含多个Pipeline, 数组形式
+  pull_request: # 触发事件，包含多个Pipeline, 数组形式
     - name: pipeline-1 # Pipeline结构体
       stages:
         - name: stage-1 # Stage结构体
