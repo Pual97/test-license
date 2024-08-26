@@ -5,7 +5,7 @@ master: # 触发分支
         - name: stage-1 # Stage结构体
           jobs:
             - name: job-1 # Job结构体
-              script: exit 12123123123
+              script: echo 123
     - name: pipeline-2 # Pipeline结构体
       stages:
         - name: stage-2 # Stage结构体
@@ -24,7 +24,7 @@ master: # 触发分支
         - name: stage-1 # Stage结构体
           jobs:
             - name: job-1 # Job结构体
-              script: exit 12123123123
+              script: echo 123
     - name: pipeline-2 # Pipeline结构体
       stages:
         - name: stage-2 # Stage结构体
