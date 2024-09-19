@@ -1,4 +1,4 @@
-master: # 触发分支1
+master: # 触发分支12
   push: # 触发事件，包含多个Pipeline, 数组形式
     - name: pipeline-1 # Pipeline结构体
       stages:
