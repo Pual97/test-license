@@ -9,7 +9,7 @@ master: # 触发分支
     - name: pipeline-2 # Pipeline结构体
       stages:
         - name: stage-2 # Stage结构体
-          jobs:12312312312
+          jobs:
             - name: job-1 # Job结构体
               script: echo hello
     - name: pipeline-3 # Pipeline结构体
