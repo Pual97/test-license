@@ -1,11 +1,11 @@
-master: # 触发分支
+master: # 触发分支1
   push: # 触发事件，包含多个Pipeline, 数组形式
     - name: pipeline-1 # Pipeline结构体
       stages:
         - name: stage-1 # Stage结构体
           jobs:
             - name: job-1 # Job结构体
-              script: echo 123123
+              script: echo 12312312312
     - name: pipeline-2 # Pipeline结构体
       stages:
         - name: stage-2 # Stage结构体
